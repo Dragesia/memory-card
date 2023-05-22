@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1050px;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+}
