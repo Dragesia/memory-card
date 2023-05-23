@@ -1,84 +1,84 @@
 const characters = [
     {
         name: 'Darth Vader',
-        src: './characters/media/darthvader.png'
+        src: "https://i.ibb.co/vkByjqh/darthvader.png"
     },
     {
         name: 'Yoda',
-        src: './characters/media/yoda.png'
+        src: "https://i.ibb.co/VWD8fFT/yoda.png"
     },
     {
-        name: 'Padme Amidala',
-        src: './characters/media/padmeamidala.png'
+        name: 'Padme',
+        src: "https://i.ibb.co/7rcNf5v/padmeamidala.png"
     },
     {
         name: 'Jar Jar Binks',
-        src: './characters/media/jarjarbinks.png'
+        src: "https://i.ibb.co/CPWqfZC/jarjarbinks.png"
     },
     {
-        name: 'Obi-Wan Kenobi',
-        src: './characters/media/obiwankenobi.png'
+        name: 'Obi-Wan',
+        src: "https://i.ibb.co/xmbz7N4/obiwankenobi.png"
     },
     {
         name: 'Palpatine',
-        src: './characters/media/palpatine.png'
+        src: "https://i.ibb.co/k8VND2t/palpatine.png"
     },
     {
         name: 'Jabba the Hutt',
-        src: './characters/media/jabbathehutt.png'
+        src: "https://i.ibb.co/Wn9Dzdx/jabbathehutt.png"
     },
     {
         name: 'Ahsoka Tano',
-        src: './characters/media/ahsokatano.png'
+        src: "https://i.ibb.co/VW2GGcv/ahsokatano.png"
     },
     {
         name: 'Darth Maul',
-        src: './characters/media/darthmaul.png'
+        src: "https://i.ibb.co/92KGJMN/darthmaul.png"
     },
     {
-        name: 'Anakin Skywalker',
-        src: './characters/media/anakinskywalker.png'
+        name: 'Anakin',
+        src: "https://i.ibb.co/tsVWqyW/anakinskywalker.png"
     },
     {
-        name: 'General Grievous',
-        src: './characters/media/generalgrievous.png'
+        name: 'Grievous',
+        src: "https://i.ibb.co/BLK096f/generalgrievous.png"
     },
     {
         name: 'Count Dooku',
-        src: './characters/media/countdooku.png'
+        src: "https://i.ibb.co/2Zxxfn0/countdooku.png"
     },
     {
         name: 'R2-D2',
-        src: './characters/media/r2d2.png'
+        src: "https://i.ibb.co/dMQr3fB/r2d2.png"
     },
     {
         name: 'C-3PO',
-        src: './characters/media/c3po.png'
+        src: "https://i.ibb.co/wdQSz7N/c3po.png"
     },
     {
         name: 'Kit Fisto',
-        src: './characters/media/kitfisto.png'
+        src: "https://i.ibb.co/Kxtdssc/kitfisto.png"
     },
     {
         name: 'Mace Windu',
-        src: './characters/media/macewindu.png'
+        src: "https://i.ibb.co/3Nc8RtY/macewindu.png"
     },
     {
-        name: 'Bo-katan Kryze',
-        src: './characters/media/bokatankryze.png'
+        name: 'Bo-katan',
+        src: "https://i.ibb.co/MRL0By9/bokatankryze.png"
     },
     {
         name: 'Asajj Ventress',
-        src: './characters/media/asajjventress.png'
-    },
+        src: "https://i.ibb.co/dgjrM37/asajjventress.png"
+    }/* ,
     {
         name: 'Boba Fett',
-        src: './characters/media/bobafett.png'
+        src: "https://i.ibb.co/FXMRdRb/bobafett.png"
     },
     {
         name: 'Cad Bane',
-        src: './characters/media/cadbane.png'
-    }
+        src: "https://i.ibb.co/YBVNwtt/cadbane.png"
+    } */
 ];
 
 export default characters;

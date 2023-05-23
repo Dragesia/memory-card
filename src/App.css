@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+/* General */
+
 * {
     margin: 0;
     padding: 0;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
 }
 
 #root {
@@ -8,17 +19,76 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Abel';
 }
+
+body {
+    background-image: url("https://i.ibb.co/6Y5bhgM/background.png");
+    background-repeat: repeat;
+}
+
+/* Logo */
+
+.logo {
+    padding: 2.5rem;
+}
+
+/* Scoreboard */
+
+.scoreboard {
+    background-color: rgb(255, 232, 31);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.scoreboard > p {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 0 95px 0 95px;
+}
+
+/* Characters */
 
 .characters {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    max-width: 1050px;
+    gap: 15px;
+    justify-content: center;
+    padding: 0px 25px 25px 25px;
 }
 
+/* Cards */
+
 .card {
-    height: 300px;
-    width: 200px;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card > img {
+    height: 270px;
+    width: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card > .name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    background-color: rgb(255, 232, 31);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px 0 5px 0;
 }
