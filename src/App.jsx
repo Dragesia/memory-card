@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import characters from './characters/characters.jsx'
-import Card from './Components/Card.jsx';
+import Card from './components/Card.jsx';
 
 function App() {
   const [score, setScore] = useState(0);
