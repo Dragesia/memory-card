@@ -3,9 +3,11 @@ import './App.css'
 import characters from './characters/characters.jsx'
 import Card from './components/Card.jsx';
 
+const initialHighscore = localStorage.getItem('highscore') !== null ? localStorage.getItem('highscore') : 0;
+
 function App() {
   const [score, setScore] = useState(0);
-  const [highscore, setHighscore] = useState(localStorage.getItem('highscore'));
+  const [highscore, setHighscore] = useState(initialHighscore);
   const [selected, setSelected] = useState([]);
 
   useEffect(() => {
